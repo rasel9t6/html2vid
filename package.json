@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "pnpm run --parallel dev",
     "build": "pnpm run --parallel build",
-    "start": "pnpm run --parallel start"
+    "start": "pnpm run --parallel start",
+    "add-ui": "cd frontend && pnpm dlx shadcn@latest add"
   },
   "engines": {
     "node": ">=18.0.0",
